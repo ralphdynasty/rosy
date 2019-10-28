@@ -1,0 +1,212 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html, body{
+	height: 100%;
+	//width:100%;
+}
+
+
+ul{
+	//float: left;
+	//padding-bottom: 5px;
+	display: inline;
+	line-height: 70px; 
+	position: fixed;
+	z-index: 99;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+li{
+	text-decoration: none;
+	display: inline;
+	//float:left;
+	text-transform: uppercase;
+	font-size:20px;
+
+}
+
+a{
+	text-decoration: none;
+	color:#000;
+	margin-left:30px;
+	//line-height: 60px;
+	
+}
+
+.header{
+	background-color: rgba(255, 255, 255, 0.8);
+	//background-attachment: fixed;
+	
+}
+
+.header img{
+	float:left;
+	margin: 25px 40px 0 0;
+	//display: inline;
+}
+
+.landingPage{
+	/*background-color:yellow ;*/
+	height:100%;
+	background: url(../images/landing.png);
+	background-position: center;
+	background-size: cover;
+
+}
+
+.landingData{
+	float:right;
+	margin:15% 15% 0 0;
+	font-size:30px;
+	line-height: 60px;
+	font-family: "times new romans" sans-serif;
+	text-align: center;
+}
+
+div.section{
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	padding:30px;
+
+}
+
+.sectionOne{
+	background: url(../images/img2.png);
+	}
+
+.sectionOne img{
+	float:left;
+}
+
+.subSec1{
+	background: #f0f0f0;
+	padding: 3%;
+	
+	//height:100%;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.subSec1 img{
+	//float:left;
+	width:99%;
+	//height:99%;
+	//margin: 1%;
+	padding: 20px;
+}
+
+.body{
+	background: url(../images/lauren-fleischmann-470109-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding:30px;
+	height:50%;
+	color:#fff;
+}
+
+.heading{
+	text-align: center;
+	font-size: 25px;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 5px 0 40px ;
+}
+
+
+._contact_container{
+	text-align: center;
+	padding: 1em;
+	margin-bottom: 1em;
+}
+
+#contact{
+	padding-bottom: 20px;
+}
+
+#_contact{
+	font-size:40px;
+	//line-height: 50px;
+	padding-bottom: 10px;
+	
+}
+
+#_fan{
+	color:grey;
+}
+
+.c_grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	//padding-top: 20px;
+	//height:100%;
+}
+
+.grid1{
+	display: grid;
+	padding: 10px 0 10px 100px;
+	font-size:18px; 
+	line-height: 30px;
+}
+
+
+.inputTop{
+	width:200px;
+	height:40px;
+	margin-bottom: 0.8em;
+	margin-right: 0.8em;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding-left: 13px;
+	box-shadow:1px; 
+
+}
+
+.inputButtom{
+	width:420px;
+	margin-bottom: 0.8em;
+	/*border: 1px solid black;*/
+	border-radius: 5px;
+	text-align: justify;
+	padding: 10px 0px 0 20px;
+	font-family: sans-serif;
+}
+
+.button{
+	width:70px;
+	height:40px;
+	margin-left: 355px;
+	border-radius: 5px;
+	background: black;
+	color:white;
+}
+
+.button:hover{
+	width:70px;
+	height:40px;
+	margin-left: 355px;
+	border-radius: 5px;
+	background: white;
+	color:black;
+	
+}
+
+
+.footer{
+	background: #e0e0e0;
+	height:10%;
+	
+}
+
+.footer p{
+	text-align: center;
+	padding-top: 20px;
+}
